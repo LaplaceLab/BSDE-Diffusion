@@ -77,6 +77,9 @@ For images, volumes, time series, or other structured states, replace `TimeCondi
 ## Install and verify
 
 ```bash
+git clone https://github.com/LaplaceLab/BSDE-Diffusion.git
+cd BSDE-Diffusion
+
 python -m venv .venv
 source .venv/bin/activate
 pip install -e '.[dev]'
@@ -93,4 +96,3 @@ ruff check .
 Zihao Wang. “Backward SDEs-based Diffusion for Physics-Constrained Generation.” *Proceedings of the 43rd International Conference on Machine Learning*, PMLR 306, 2026.
 
 Project page: <https://laplacelab.github.io/BSDEDiffusion/>
-
