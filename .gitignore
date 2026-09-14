@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# User-owned models, data, and generated outputs
+.cache/
+data/
+outputs/
+results/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.log
+
+# The publication site is maintained in its own website-only repository.
+website/
+tmp/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+
